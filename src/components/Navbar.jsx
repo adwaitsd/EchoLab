@@ -7,7 +7,7 @@ const Navbar = ({ onOpenCart }) => {
 
   return (
     <nav className="navbar">
-      <Link to="/" className="nav-brand" style={{textDecoration: 'none', color: 'inherit'}}>
+      <Link to="/" className="nav-brand" style={{ textDecoration: 'none', color: 'inherit' }}>
         EchoLab
       </Link>
 

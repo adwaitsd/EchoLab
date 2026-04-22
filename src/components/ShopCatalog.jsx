@@ -24,13 +24,13 @@ const allProducts = [
     id: 4,
     name: 'Studio Pro Monitors',
     price: '₹19,999',
-    image: 'https://images.unsplash.com/photo-1546435770-a3e426fac365?q=80&w=1000&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1737885197946-6d9d79dade89?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     id: 5,
     name: 'EchoBuds Sport Water-Resistant',
     price: '₹3,499',
-    image: 'https://images.unsplash.com/photo-1606220588913-b3aecb492021?q=80&w=1000&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1636099362460-5717f3be17cf?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     id: 6,
@@ -54,13 +54,13 @@ const allProducts = [
     id: 9,
     name: 'Gaming Headset Pro',
     price: '₹7,999',
-    image: 'https://images.unsplash.com/photo-1612222869049-d8ec83637a3c?q=80&w=1000&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1610041321327-b794c052db27?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     id: 10,
     name: 'Minimalist Wireless Pods',
     price: '₹5,999',
-    image: 'https://images.unsplash.com/photo-1608156639585-b3a0328262f0?q=80&w=1000&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1655560378428-7605bda51749?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     id: 11,
@@ -85,7 +85,7 @@ const ShopCatalog = () => {
         <h1 className="shop-title">Shop All Products</h1>
         <p className="shop-subtitle">Discover our entire collection of premium audio gear.</p>
       </div>
-      
+
       <div className="products-grid shop-grid">
         {allProducts.map((product, index) => (
           <div key={product.id} className={`product-card-wrapper reveal reveal-delay-${(index % 3) + 1}`}>
