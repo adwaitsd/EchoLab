@@ -584,15 +584,15 @@ body {
   background-color: #fff;
   border: 1px solid #e0e0e0;
   border-radius: 4px;
-  padding: 0.2rem 0.4rem;
+  padding: 0.3rem 0.6rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 28px;
+  height: 42px;
 }
 
 .payment-icon img {
-  height: 14px;
+  height: 22px;
   object-fit: contain;
 }
 
