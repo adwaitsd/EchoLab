@@ -32,7 +32,7 @@ const Navbar = ({ onOpenCart }) => {
 
       <div className="nav-right">
         <button className="mobile-menu-btn" onClick={toggleMobileMenu}>
-          {isMobileMenuOpen ? <X size={24} color="#000" /> : <Menu size={24} color="#000" />}
+          {isMobileMenuOpen ? <X size={24} color="currentColor" /> : <Menu size={24} color="currentColor" />}
         </button>
         <div className="cart-icon-wrapper" onClick={() => { onOpenCart(); closeMobileMenu(); }}>
           {cartCount}
